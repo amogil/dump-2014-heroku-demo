@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: dump-2014-heroku-demo_development
+  pool: 5
+  username: dump-2014-heroku-demo
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: dump-2014-heroku-demo_test
+  pool: 5
+  username: dump-2014-heroku-demo
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: dump-2014-heroku-demo_production
+  pool: 5
+  username: dump-2014-heroku-demo
+  password:
