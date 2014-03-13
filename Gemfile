@@ -14,6 +14,7 @@ gem 'has_scope'
 gem 'responders'
 gem 'bootstrap-sass'
 gem 'kaminari'
+gem 'newrelic_rpm'
 
 group :doc do
   gem 'sdoc', require: false
