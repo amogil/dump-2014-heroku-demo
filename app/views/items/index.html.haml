@@ -1,0 +1,31 @@
+.row
+  .col-md-12
+    %h1
+      Items
+
+.row
+  .col-md-12
+    %table.table
+      %thead
+        %tr
+          %th= '#'
+          %th
+            Name
+          %th
+            Updated at
+          %th
+            Created at
+      %tbody
+        - @items.each do |item|
+          %tr
+            %td
+              = item.id
+            %td
+              = link_to item.name, item_path(item)
+            %td
+              = item.created_at
+            %td
+              = item.updated_at
+
+%br
+= paginate @items

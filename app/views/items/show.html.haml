@@ -1,0 +1,10 @@
+.row
+  .col-md-12
+    %h1= "Item ##{@item.id}"
+
+.row
+  .col-md-12
+    %h3= @item.name
+
+%br
+= link_to '<- Back', items_path
