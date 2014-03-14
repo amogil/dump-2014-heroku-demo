@@ -216,7 +216,6 @@ test:
 # transaction, you can leave this on all the time without
 # incurring any user-visible performance degradation.
 production:
-  poll_cycle_period: 5
   <<: *default_settings
   monitor_mode: true
 

@@ -11,6 +11,8 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
+NewRelic::Binding::Config.poll_cycle_period = 5
+
 module Dump2014HerokuDemo
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
