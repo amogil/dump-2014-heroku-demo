@@ -19,6 +19,6 @@ gem 'newrelic_rpm'
 group :doc do
   gem 'sdoc', require: false
 end
-
+gem 'octopus'
 gem 'unicorn'
 gem 'rails_12factor', group: :production
