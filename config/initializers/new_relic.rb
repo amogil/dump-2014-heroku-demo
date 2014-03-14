@@ -1,0 +1,1 @@
+NewRelic::Binding::Config.poll_cycle_period = 5
